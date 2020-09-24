@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import smtplib
 
@@ -18,3 +18,5 @@ try:
    print("Successfully sent email")
 except SMTPException:
    print("Error: unable to send email")
+   
+  
