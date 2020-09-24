@@ -6,7 +6,7 @@ WORKDIR /app
 COPY . /app
 
 RUN pip3 --no-cache-dir install -r requirements.txt
-RUN pip3 --no-cache-dir install -r smtplib
+RUN pip3 --no-cache-dir install smtplib
 
 EXPOSE 5000
 
